@@ -169,3 +169,38 @@ button{
 	left:0mm;
 }
 
+.middle-img{
+	width:100%;
+	position: absolute;
+	top:50mm;
+}
+
+.content-three{
+	display:inline-block;
+	height: 140px;
+	width: 30%;
+	border: dashed red 1px;
+	position: absolute;
+	bottom :10mm;
+	right:0mm
+	
+}
+.content-four{
+	display:inline-block;
+	height: 140px;
+	width: 30%;
+	border: dashed red 1px;
+	position: absolute;
+	bottom :10mm;
+	
+}
+
+.content-five{
+	display:inline-block;
+	height: 140px;
+	width: 30%;
+	border: dashed red 1px;
+	position: absolute;
+	bottom :10mm;
+	left:35%;
+}
