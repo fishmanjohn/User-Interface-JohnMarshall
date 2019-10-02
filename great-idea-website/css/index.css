@@ -64,3 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav { 
+	background : white;
+    float:left;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align:left ;
+	width:100%;
+	/*padding-inline: 15%;*/
+ }
+
+ nav a{
+	 color: grey;
+	 padding-inline-start: 8%;
+	 text-decoration: none;
+ }
+
+ .logo{
+	 padding: 5px 40px;
+ }
+
+h1{
+	font-size: 60px;
+	margin:15px 5px ;
+	text-align: left;
+}
+header{
+	margin:20px;
+padding: 25%;
+}
