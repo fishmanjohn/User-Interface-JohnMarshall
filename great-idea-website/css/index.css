@@ -66,31 +66,52 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav { 
-	background : white;
-    float:left;
-    font-size: 1.125em;
-    margin-right: 5%;
-    text-align:left ;
-	width:100%;
-	/*padding-inline: 15%;*/
- }
+display: inline-block;
+background : white;
+height: 30px; 
+font-size: 20px;
+margin-right: 5%;
+text-align: center ;
+width:100%;
+}
 
  nav a{
 	 color: grey;
-	 padding-inline-start: 8%;
+	 padding-inline-start: 5%;
 	 text-decoration: none;
+	 border: dashed red 1px; 
  }
 
  .logo{
-	 padding: 5px 40px;
- }
+	 display: inline-block;
+	 padding-top: 18px;
+	 padding-left: 45px;
+	 padding-right: 3px; 
+	 /*float:top;
+	 float: right; */
+	 border: dashed red 1px; 
+	 }
 
-h1{
-	font-size: 60px;
-	margin:15px 5px ;
-	text-align: left;
+ header{
+	 display: block;
+	 height:600px;
+	 width: 100%
+	 
 }
-header{
-	margin:20px;
-padding: 25%;
+
+header h1{
+	display:block;
+	height: 150px;
+	width: 250px;
+	font-size: 60px;
+	/*float:left;
+	margin:15px 5px ;
+	margin:15px 5px ;*/
+	text-align: center;
+	border: dashed red 1px; 
+
+}
+.codeCircle{
+	float: right
+
 }
